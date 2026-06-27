@@ -1,0 +1,88 @@
+{"level":"info","message":"Starting Instagram Bot...","service":"instagram-bot","timestamp":"2026-06-27 13:52:40"}
+{"level":"info","message":"Health server listening on port 5000","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"level":"debug","message":"SQLite database saved successfully","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"level":"info","message":"Created new SQLite database","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"level":"info","message":"Auto-save enabled (sqlite)","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"level":"info","message":"Loading 42 commands...","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"aliases":["botadmin","admins"],"description":"Admin panel - Manage bot administrators","level":"info","message":"Loaded command: admin","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"aliases":["gpt","ask","chatgpt"],"description":"Ask AI anything (requires OPENAI_API_KEY)","level":"info","message":"Loaded command: ai","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"aliases":["fbdl","igdl","ttdl","ytdl","dl"],"description":"Download videos from Facebook, Instagram, TikTok, YouTube via link","level":"info","message":"Loaded command: alldl","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"aliases":["anime","animeedit"],"description":"Search for anime edit videos","level":"info","message":"Loaded command: anisearch","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"aliases":["unban","blacklist"],"description":"Ban or unban a user from using the bot (Bot Admin only)","level":"info","message":"Loaded command: ban","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"aliases":["baby","bbe","babe"],"description":"Chat with Baby AI — teach it, manage replies, and more","level":"info","message":"Loaded command: bby","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"aliases":["calculate","math"],"description":"Calculate mathematical expressions","level":"info","message":"Loaded command: calc","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"aliases":["pick","select","random"],"description":"Randomly choose from given options","level":"info","message":"Loaded command: choose","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"aliases":["command"],"description":"Manage bot command files — load, unload, reload, install","level":"info","message":"Loaded command: cmd","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"aliases":["flip","coin","toss"],"description":"Flip a coin (Heads or Tails)","level":"info","message":"Loaded command: coinflip","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"aliases":["author","creator"],"description":"Show bot credits and author information","level":"info","message":"Loaded command: credits","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"aliases":["developer","owner"],"description":"Developer panel - Bot developer only","level":"info","message":"Loaded command: dev","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"aliases":["roll","d6","rolldice"],"description":"Roll a dice (1-6) or custom sided dice","level":"info","message":"Loaded command: dice","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"aliases":["say","repeat"],"description":"Repeat your message","level":"info","message":"Loaded command: echo","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"aliases":["bal","balance","daily","pay","wallet"],"description":"Economy system — check balance, claim daily reward, transfer coins","level":"info","message":"Loaded command: economy","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"aliases":["ev","js"],"description":"Execute JavaScript code in the bot context (Developer only)","level":"info","message":"Loaded command: eval","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"aliases":["menu","commands","h"],"description":"Show all available commands or detailed info about one command","level":"info","message":"Loaded command: help","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"aliases":["img4","gen4"],"description":"Generate a high-quality image using the Imagen 4 model","level":"info","message":"Loaded command: imagen4","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"aliases":["uploadimg","imgupload"],"description":"Upload image(s) to imgbb and get permanent links","level":"info","message":"Loaded command: imgbb","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"aliases":["about","botinfo"],"description":"Show bot information","level":"info","message":"Loaded command: info","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"aliases":["j","funny","laugh"],"description":"Get a random joke","level":"info","message":"Loaded command: joke","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"aliases":["autoresponse","trigger"],"description":"Manage auto-responses (Admin only)","level":"info","message":"Loaded command: manage","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"aliases":["meta","llama"],"description":"Chat with Meta AI — text, image editing, and multi-turn conversations","level":"info","message":"Loaded command: metaai","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"aliases":["nb","nanobanana"],"description":"Generate or edit images using Nano-banana Pro AI","level":"info","message":"Loaded command: nbpro","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"aliases":["p"],"description":"Check bot response time","level":"info","message":"Loaded command: ping","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"aliases":["pin","pins"],"description":"Search Pinterest for images","level":"info","message":"Loaded command: pinterest","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"aliases":["setprefix","changeprefix"],"description":"Change the bot prefix for your chat or globally (admin only)","level":"info","message":"Loaded command: prefix","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"aliases":["q","inspiration","motivate"],"description":"Get a random inspirational quote","level":"info","message":"Loaded command: quote","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"aliases":["reminder","remindme"],"description":"Set a reminder — the bot will message you after the specified time","level":"info","message":"Loaded command: remind","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"aliases":["reboot","reload"],"description":"Restart the bot process (Developer only)","level":"info","message":"Loaded command: restart","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"aliases":["rockpaperscissors","rock"],"description":"Play Rock Paper Scissors with the bot","level":"info","message":"Loaded command: rps","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"aliases":["selfmode","listenself"],"description":"Toggle whether the bot listens to its own messages","level":"info","message":"Loaded command: selflisten","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"aliases":["sh","exec"],"description":"Execute shell commands on the host (Developer only)","level":"info","message":"Loaded command: shell","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"aliases":["statistics","botstats","botinfo"],"description":"View bot statistics and user info","level":"info","message":"Loaded command: stats","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"aliases":["gc","group"],"description":"Manage thread-level settings — ban, unban, prefix, info","level":"info","message":"Loaded command: thread","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"aliases":["tt"],"description":"Search and download a TikTok video","level":"info","message":"Loaded command: tiktok","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"aliases":["clock","datetime","worldtime"],"description":"Get current time in different timezones","level":"info","message":"Loaded command: time","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"aliases":["userid","getuid","id"],"description":"Get Instagram User ID from username","level":"info","message":"Loaded command: uid","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"aliases":["delete","remove","del"],"description":"Unsend a message (reply to the message you want to unsend)","level":"info","message":"Loaded command: unsend","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"aliases":["uinfo","profile","iginfo"],"description":"Get detailed Instagram user information","level":"info","message":"Loaded command: userinfo","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"aliases":["wl"],"description":"Manage the user and thread whitelist (Bot Admin only)","level":"info","message":"Loaded command: whitelist","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"aliases":["youtube","yt"],"description":"Download YouTube video or audio","level":"info","message":"Loaded command: ytb","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"level":"info","message":"Successfully loaded 140 commands","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"level":"info","message":"Loading 7 events...","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"level":"info","message":"Loaded event: bot_added","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"level":"info","message":"Loaded event: error","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"level":"info","message":"Loaded event: gc_join","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"level":"info","message":"Loaded event: gc_leave","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"level":"info","message":"Loaded event: message","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"level":"info","message":"Loaded event: message_reaction","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"level":"info","message":"Loaded event: ready","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"level":"info","message":"Successfully loaded 7 events","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"level":"debug","message":"Registering event handler: bot_added","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"level":"debug","message":"Registering event handler: error","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"level":"debug","message":"Registering event handler: gc_join","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"level":"debug","message":"Registering event handler: gc_leave","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"level":"debug","message":"Registering event handler: message","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"level":"debug","message":"Registering event handler: message_reaction","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"level":"debug","message":"Registering event handler: ready","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"level":"info","message":"Loading cookies from account.txt (netscape; keys: ps_n, datr, ds_user_id, csrftoken, ig_did, ps_l, wd, mid, sessionid, rur)…","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"level":"info","message":"Connected to Instagram","service":"instagram-bot","timestamp":"2026-06-27 13:52:41","userID":"15714320585"}
+{"level":"info","message":"Bot is ready and connected!","service":"instagram-bot","timestamp":"2026-06-27 13:52:41","userID":"15714320585","username":"15714320585"}
+{"level":"info","message":"InstaBOT started successfully","service":"instagram-bot","timestamp":"2026-06-27 13:52:41","type":"success"}
+{"level":"info","message":"User: @15714320585 (15714320585)","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"level":"info","message":"Loaded 42 commands and 7 events","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"level":"info","message":"Prefix: ~","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"level":"info","message":"Listening for messages...","service":"instagram-bot","timestamp":"2026-06-27 13:52:41","type":"success"}
+{"level":"info","message":"✅ গেসুকে 😈 is online — 42 commands | 7 events | prefix: \"~\" (noPrefix enabled for admins & devs)","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"level":"info","message":"Starting message listener…","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"level":"info","message":"Reminder scheduler started (checks every 30s)","service":"instagram-bot","timestamp":"2026-06-27 13:52:41"}
+{"level":"debug","message":"Message from 50956543298: -help","service":"instagram-bot","timestamp":"2026-06-27 13:53:01"}
+{"level":"debug","message":"Message from 50956543298: ~help","service":"instagram-bot","timestamp":"2026-06-27 13:53:39"}
+{"level":"info","message":"help executed by 50956543298","service":"instagram-bot","timestamp":"2026-06-27 13:53:39","type":"success"}
+{"level":"debug","message":"SQLite database saved successfully","service":"instagram-bot","timestamp":"2026-06-27 13:53:41"}
+{"error":"Instagram API Error: login_required","level":"error","message":"Failed to reply to message","service":"instagram-bot","threadID":"340282366841710301281153124314545122788","timestamp":"2026-06-27 13:53:41"}
+{"error":"Instagram API Error: login_required","level":"error","message":"Failed to send message","service":"instagram-bot","threadID":"340282366841710301281153124314545122788","timestamp":"2026-06-27 13:53:43"}
+{"level":"error","message":"Send failed because Instagram rejected the session. Refresh account.txt with a fresh FULL cookie.","service":"instagram-bot","timestamp":"2026-06-27 13:53:43"}
+{"error":"Instagram API Error: login_required","level":"error","message":"Command error: help","service":"instagram-bot","timestamp":"2026-06-27 13:53:43"}
+{"level":"error","message":"help executed by 50956543298","service":"instagram-bot","timestamp":"2026-06-27 13:53:43","type":"error"}
+{"error":"Instagram API Error: login_required","level":"error","message":"Failed to send message","service":"instagram-bot","threadID":"340282366841710301281153124314545122788","timestamp":"2026-06-27 13:53:45"}
+{"level":"error","message":"Send failed because Instagram rejected the session. Refresh account.txt with a fresh FULL cookie.","service":"instagram-bot","timestamp":"2026-06-27 13:53:45"}
+{"error":"Instagram API Error: login_required","level":"error","message":"Error in message event handler","service":"instagram-bot","stack":"Error: Instagram API Error: login_required\n    at HttpClient.handleError (C:\\Users\\Rehan\\Downloads\\InstaBOT-main_FIXED-cookie-mqtt\\node_modules\\@neoaz07\\nkxica\\src\\utils\\http.js:338:16)\n    at HttpClient.request (C:\\Users\\Rehan\\Downloads\\InstaBOT-main_FIXED-cookie-mqtt\\node_modules\\@neoaz07\\nkxica\\src\\utils\\http.js:274:18)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async SendMessage._sendText (C:\\Users\\Rehan\\Downloads\\InstaBOT-main_FIXED-cookie-mqtt\\node_modules\\@neoaz07\\nkxica\\src\\methods\\sendMessage.js:150:22)\n    at async SendMessage._dispatch (C:\\Users\\Rehan\\Downloads\\InstaBOT-main_FIXED-cookie-mqtt\\node_modules\\@neoaz07\\nkxica\\src\\methods\\sendMessage.js:196:20)\n    at async SendMessage.toThread (C:\\Users\\Rehan\\Downloads\\InstaBOT-main_FIXED-cookie-mqtt\\node_modules\\@neoaz07\\nkxica\\src\\methods\\sendMessage.js:277:11)\n    at async Object.sendMessage (C:\\Users\\Rehan\\Downloads\\InstaBOT-main_FIXED-cookie-mqtt\\bot\\InstagramBot.js:434:26)\n    at async Object.run (C:\\Users\\Rehan\\Downloads\\InstaBOT-main_FIXED-cookie-mqtt\\events\\message.js:218:9)\n    at async EventLoader.handleEvent (C:\\Users\\Rehan\\Downloads\\InstaBOT-main_FIXED-cookie-mqtt\\utils\\eventLoader.js:75:7)\n    at async InstagramBot.handleMessage (C:\\Users\\Rehan\\Downloads\\InstaBOT-main_FIXED-cookie-mqtt\\bot\\InstagramBot.js:329:7)","timestamp":"2026-06-27 13:53:45"}

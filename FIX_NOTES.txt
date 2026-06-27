@@ -1,0 +1,14 @@
+FIXED BUILD NOTES
+
+1) bot/InstagramBot.js now converts account.txt Netscape cookies.txt export into a normal one-line Cookie header before calling nkxica login.
+2) Cookie validation now requires sessionid, csrftoken, and ds_user_id instead of accepting any file that only contains the word sessionid.
+3) MQTT/listener auth errors are handled with a clear message instead of noisy unhandled rejection output.
+4) Added npm run check-cookie to verify account.txt shape without showing cookie values.
+5) account.txt is intentionally a placeholder in this zip. Paste your fresh full Instagram cookie into it before starting.
+
+Run:
+  npm install
+  npm run check-cookie
+  npm start
+
+If npm run check-cookie passes but Instagram still says login_required / not authorized, the cookie is expired or checkpointed. Log in to Instagram, approve any login alert, export a new full cookie, and replace account.txt.
